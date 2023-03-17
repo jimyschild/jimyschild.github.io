@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calculator_body{
+    min-width: 300px;
+    max-width: 600px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.calculator_body{
+   /* border: 2px solid blueviolet;*/
+   background:linear-gradient(180deg, lightblue, rgb(77, 141, 224));
+    height: 70vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header{
+    
+    box-shadow: 0px 0px 5px white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.informations{
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    box-shadow: inset 0px 0px 20px white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 15%;
+    width: 80%;
+}
+
+.heigth{
+    box-shadow: inset 0px 0px 20px white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 15%;
+    width: 80%;
+}
+
+.weigth{
+    box-shadow: inset 0px 0px 20px white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 15%;
+    width: 80%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color:transparent;
+}
+
+.reset{
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.button_button{
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.result{
+    box-shadow: inset 0px 0px 10px white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 18%;
+    width: 80%;
+}
+.result_result{
+    
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
